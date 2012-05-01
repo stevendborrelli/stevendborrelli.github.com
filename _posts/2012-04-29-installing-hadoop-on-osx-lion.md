@@ -69,26 +69,30 @@ Another nice feature of Homebrew is that we don't need to install things as root
 	==> Summary
 	/usr/local/Cellar/hadoop/1.0.1: 264 files, 57M, built in 3 seconds
 
-Note that Hadoop has been installed to `/usr/local/Cellar/hadoop/<version>`. Homebrew creates the following symlinks in `/usr/local/bin: 
+Note that Hadoop has been installed to `/usr/local/Cellar/hadoop/<version>`. Homebrew creates the following symlinks in `/usr/local/bin`: 
 
-	lrwxr-xr-x  1 steve  admin    33 Apr 29 22:54 hadoop -> ../Cellar/hadoop/1.0.1/bin/hadoop
-	lrwxr-xr-x  1 steve  admin    43 Apr 29 22:54 hadoop-config.sh -> ../Cellar/hadoop/1.0.1/bin/hadoop-config.sh
-	lrwxr-xr-x  1 steve  admin    43 Apr 29 22:54 hadoop-daemon.sh -> ../Cellar/hadoop/1.0.1/bin/hadoop-daemon.sh
-	lrwxr-xr-x  1 steve  admin    44 Apr 29 22:54 hadoop-daemons.sh -> ../Cellar/hadoop/1.0.1/bin/hadoop-daemons.sh
-	lrwxr-xr-x  1 steve  admin    30 Apr 29 22:54 rcc -> ../Cellar/hadoop/1.0.1/bin/rcc
-	lrwxr-xr-x  1 steve  admin    36 Apr 29 22:54 slaves.sh -> ../Cellar/hadoop/1.0.1/bin/slaves.sh
-	lrwxr-xr-x  1 steve  admin    39 Apr 29 22:54 start-all.sh -> ../Cellar/hadoop/1.0.1/bin/start-all.sh
-	lrwxr-xr-x  1 steve  admin    44 Apr 29 22:54 start-balancer.sh -> ../Cellar/hadoop/1.0.1/bin/start-balancer.sh
-	lrwxr-xr-x  1 steve  admin    39 Apr 29 22:54 start-dfs.sh -> ../Cellar/hadoop/1.0.1/bin/start-dfs.sh
-	lrwxr-xr-x  1 steve  admin    52 Apr 29 22:54 start-jobhistoryserver.sh -> ../Cellar/hadoop/1.0.1/bin/start-jobhistoryserver.sh
-	lrwxr-xr-x  1 steve  admin    42 Apr 29 22:54 start-mapred.sh -> ../Cellar/hadoop/1.0.1/bin/start-mapred.sh
-	lrwxr-xr-x  1 steve  admin    38 Apr 29 22:54 stop-all.sh -> ../Cellar/hadoop/1.0.1/bin/stop-all.sh
-	lrwxr-xr-x  1 steve  admin    43 Apr 29 22:54 stop-balancer.sh -> ../Cellar/hadoop/1.0.1/bin/stop-balancer.sh
-	lrwxr-xr-x  1 steve  admin    38 Apr 29 22:54 stop-dfs.sh -> ../Cellar/hadoop/1.0.1/bin/stop-dfs.sh
-	lrwxr-xr-x  1 steve  admin    51 Apr 29 22:54 stop-jobhistoryserver.sh -> ../Cellar/hadoop/1.0.1/bin/stop-jobhistoryserver.sh
-	lrwxr-xr-x  1 steve  admin    41 Apr 29 22:54 stop-mapred.sh -> ../Cellar/hadoop/1.0.1/bin/stop-mapred.sh
-	lrwxr-xr-x  1 steve  admin    42 Apr 29 22:54 task-controller -> ../Cellar/hadoop/1.0.1/bin/task-controller
+	/usr/local/bin/hadoop -> /usr/local/Cellar/hadoop/1.0.1/bin/hadoop
+	/usr/local/bin/hadoop-config.sh -> /usr/local/Cellar/hadoop/1.0.1/bin/hadoop-config.sh
+	/usr/local/bin/hadoop-daemon.sh -> /usr/local/Cellar/hadoop/1.0.1/bin/hadoop-daemon.sh
+	/usr/local/bin/hadoop-daemons.sh -> /usr/local/Cellar/hadoop/1.0.1/bin/hadoop-daemons.sh
+	/usr/local/bin/rcc -> /usr/local/Cellar/hadoop/1.0.1/bin/rcc
+	/usr/local/bin/slaves.sh -> /usr/local/Cellar/hadoop/1.0.1/bin/slaves.sh
+	/usr/local/bin/start-all.sh -> /usr/local/Cellar/hadoop/1.0.1/bin/start-all.sh
+	/usr/local/bin/start-balancer.sh -> /usr/local/Cellar/hadoop/1.0.1/bin/start-balancer.sh
+	/usr/local/bin/start-dfs.sh -> /usr/local/Cellar/hadoop/1.0.1/bin/start-dfs.sh
+	/usr/local/bin/start-jobhistoryserver.sh -> /usr/local/Cellar/hadoop/1.0.1/bin/start-jobhistoryserver.sh
+	/usr/local/bin/start-mapred.sh -> /usr/local/Cellar/hadoop/1.0.1/bin/start-mapred.sh
+	/usr/local/bin/stop-all.sh -> /usr/local/Cellar/hadoop/1.0.1/bin/stop-all.sh
+	/usr/local/bin/stop-balancer.sh -> /usr/local/Cellar/hadoop/1.0.1/bin/stop-balancer.sh
+	/usr/local/bin/stop-dfs.sh -> /usr/local/Cellar/hadoop/1.0.1/bin/stop-dfs.sh
+	/usr/local/bin/stop-jobhistoryserver.sh -> /usr/local/Cellar/hadoop/1.0.1/bin/stop-jobhistoryserver.sh
+	/usr/local/bin/stop-mapred.sh -> /usr/local/Cellar/hadoop/1.0.1/bin/stop-mapred.sh
+	/usr/local/bin/task-controller -> /usr/local/Cellar/hadoop/1.0.1/bin/task-controller
 
+{% highlight python %}
+   def function():
+      pass 
+{% endhighlight %} 
 
 ##Next Steps
 
