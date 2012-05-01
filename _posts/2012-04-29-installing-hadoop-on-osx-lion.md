@@ -51,7 +51,7 @@ First, let's check brew to see what version of Hadoop is packaged. The `brew inf
 	$JAVA_HOME has been set to be the output of:
   	/usr/libexec/java_home
 
-One of the nice things about the Homebrew Hadoop package is that hadoop environment file has already been updated with OSX's Java location. The `brew versions` command will allow you to see all the previous versions that have been packaged. 
+One of the nice things about the Homebrew Hadoop package is that Hadoop environment file (hadoop-env.sh) has already been updated to conform with OSX's Java location. The `brew versions` command will allow you to see all the previous versions that have been packaged. 
 
 
 ####Install Hadoop 
@@ -89,10 +89,6 @@ Note that Hadoop has been installed to `/usr/local/Cellar/hadoop/<version>`. Hom
 	/usr/local/bin/stop-mapred.sh -> /usr/local/Cellar/hadoop/1.0.1/bin/stop-mapred.sh
 	/usr/local/bin/task-controller -> /usr/local/Cellar/hadoop/1.0.1/bin/task-controller
 
-{% highlight python %}
-   def function():
-      pass 
-{% endhighlight %} 
 
 ##Next Steps
 
