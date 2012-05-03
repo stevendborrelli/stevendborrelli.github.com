@@ -92,4 +92,4 @@ Note that Hadoop has been installed to `/usr/local/Cellar/hadoop/<version>`. Hom
 
 ##Next Steps
 
-In the next couple of posts, I'll detail [setting up SSH keys](/2012/04/29/installing-hadoop-on-osx-lion). Then we'll configure and run your new Hadoop installation. 
+In the next post, I'll detail [setting up SSH keys](/2012/05/02/hadoop-osx-sshkey_setup/). Then we'll configure and run your new Hadoop installation. 
