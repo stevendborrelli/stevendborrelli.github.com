@@ -3,7 +3,7 @@ layout: post
 title: "OSX SSH key setup"
 description: ""
 category: 
-tags: [hadoop hadoop101 osx lion ssh ]
+tags: [hadoop, hadoop101, osx, lion, ssh ]
 ---
 {% include JB/setup %}
 
@@ -22,7 +22,7 @@ If you are not familiar with setting up ssh keys, the rest of this post contains
 
 ##Setting up SSH connections 
 
-[Secure shell](http://en.wikipedia.org/wiki/Secure_Shell) is used to create encrypted communication links between systems. Apple's OSX includes an SSH client and server. In order to use it, we have to enable remote login and then set up keys so that hadoop and other components can connect without needing to use a password. 
+[Secure shell](http://en.wikipedia.org/wiki/Secure_Shell) is used to create encrypted communication links between systems. Apple's OSX includes an SSH client and server. In order to use it, we have to enable remote login and then set up keys so that hadoop and other components can connect without needing to use a password. Hadoop mainly uses ssh for the start and stop scripts. 
 
 
 ####Turning on the SSH daemon
@@ -82,6 +82,6 @@ You should now be able to log into your local machine without a password.
 
 
 ##Next Steps
-Now that ssh keys are set up, we can conigure and run programs like Hadoop, Hbase and MPI. 
+Now that ssh keys are set up, we can configure and run programs like Hadoop, Hbase and MPI. 
 
 The next post will detail getting Hadoop up and running.  
