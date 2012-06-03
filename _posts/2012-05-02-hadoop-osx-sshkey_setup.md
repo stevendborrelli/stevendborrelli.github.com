@@ -84,4 +84,4 @@ You should now be able to log into your local machine without a password.
 ##Next Steps
 Now that ssh keys are set up, we can configure and run programs like Hadoop, Hbase and MPI. 
 
-The next post will detail getting Hadoop up and running.  
+The next post will detail getting Hadoop up and running. [Click to continue with Hadoop Configuration](/2012/05/03/hadoop-initial-configuration/index.html).  
