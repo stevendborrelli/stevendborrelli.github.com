@@ -7,8 +7,11 @@ tags: [machine learning, netflix]
 ---
 {% include JB/setup %}
 
+# Netflix Prize Links
 
-Below are links to publications I used to put together a presentation about the Netflix Prize. 
+Below are links to publications I used to put together a presentation about the Netflix Prize. If you wish to add any links, make a pull request on [My github site](https://github.com/stevendborrelli/stevendborrelli.github.com) and modify `_posts / 2012-08-11-netflix-prize-links.md`.
+
+Or email me with the changes: steve@borrelli.org
 
 
 ###Overview and Origins of the Netflix Prize
