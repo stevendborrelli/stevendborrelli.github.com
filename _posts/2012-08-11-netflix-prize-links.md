@@ -27,6 +27,7 @@ Or email me with the changes: steve@borrelli.org
 
 ###Netflix Data Set
 * Netflix [On the creation of the training and qualifying sets...](http://www.netflixprize.com/community/viewtopic.php?pid=2242)
+* [Analyzing temporal dependences in Netflix data](http://www.pitt.edu/~druzdzel/psfiles/zeszyty08.pdf)
 * Mike Linacre [Rating frequencies in the quiz data set](http://www.netflixprize.com//community/viewtopic.php?id=334) netflixprize.com forums.
 
 * Ilya Grigorik [Dissecting the Netflix Dataset](http://www.igvita.com/2006/10/29/dissecting-the-netflix-dataset/)
@@ -45,6 +46,7 @@ Or email me with the changes: steve@borrelli.org
 * [The BigChaos Solution to the Netflix Prize 2008](http://www.netflixprize.com/assets/ProgressPrize2008_BigChaos.pdf)
 * [The Pragmatic Theory solution to the Netflix Grand Prize](http://www.netflixprize.com/assets/GrandPrize2009_BPC_PragmaticTheory.pdf)
 * Team Gravity [Investigation of Various Matrix Factorization Methods for Large Recommender Systems](http://www.sze.hu/~gtakacs/download/kdd_netflix_workshop_2008.pdf)
+* BellKor [Scalable Collaborative Filtering with Jointly Derived Neighborhood Interpolation Weights](http://public.research.att.com/~volinsky/netflix/BellKorICDM07.pdf)
 
 ###Algorithms
 
@@ -64,6 +66,8 @@ Or email me with the changes: steve@borrelli.org
 * [The Story of the Netflix Prize: An Ensembler’s Tale](http://www.eecs.berkeley.edu/~lmackey/papers/netflix_story-nas11-slides.pdf)
 Lester Mackey, Dinosaur Planet team
 * [The Netflix Prize: yet another million dollar problem](http://www.slideshare.net/davidbessis/the-netflix-prize-yet-another-million-dollar-problem)
+* BellKor [Lessons from the Netflix Prize](http://www7.nationalacademies.org/cnstat/Bell%20Presentation.pdf)
+
 
 ###Links
 * AT&T: [Statistics Can Find You a Movie, Part 1](http://www.research.att.com/articles/featured_stories/2010_01/2010_02_netflix_article.html?fbid=gncVF5QUO56)
@@ -71,27 +75,39 @@ Lester Mackey, Dinosaur Planet team
 
 
 
+
 ###News Stories
 * Wired 10/2002 [The Netflix Effect](http://www.wired.com/wired/archive/10.12/netflix.html) (discusses competitive advantage of Cinematch)
+* Wired 2/25/2008 [This Psychologist Might Outsmart the Math Brains Competing for the Netflix Prize](http://www.wired.com/techbiz/media/magazine/16-03/mf_netflix?currentPage=all)
 * NY Times 2008/11/23: [If You Liked This, You’re Sure to Love That](http://www.nytimes.com/2008/11/23/magazine/23Netflix-t.html?fta=y)
 * NY Times 2009/7/29: [Netflix Competitors Learn the Power of Teamwork](http://www.nytimes.com/2009/07/28/technology/internet/28netflix.html?_r=1)
 
 
 ###Blogs 
+* [2007] Tom Slee [The NetFlix Prize: 300 days later](http://whimsley.typepad.com/whimsley/2007/07/the-limitations.html)
+* [2009] Tom Slee [Netflix Prize: Was The Napoleon Dynamite Problem Solved?](http://whimsley.typepad.com/whimsley/2009/10/netflix-prize-was-the-napoleon-dynamite-problem-solved.html)
 * Edwin Chen [Winning the Netflix Prize: A Summary](http://blog.echen.me/2011/10/24/winning-the-netflix-prize-a-summary/)
+* [The Netflix Prize: Lessons Learned](http://technocalifornia.blogspot.com/2009/09/netflix-prize-lessons-learned.html)
 
+###netflixprize.com Forum Threads
+* Yehuda Koren ["How useful is a lower RMSE?"](http://www.netflixprize.com/community/viewtopic.php?id=828) "What I learn from this is that the small improvements in RMSE translate into very significant improvements in quality of the top K movies. In other words, a 1% improvement of the RMSE can make a big positive difference in the identity of the "top-10" most recommended movies for a user."
 
-###Forum Threads
-
-
+###Netflix blogs
+* [Netflix Recommendations: Beyond the 5 stars (Part 1)](http://techblog.netflix.com/2012/04/netflix-recommendations-beyond-5-stars.html)
+* [Netflix Recommendations: Beyond the 5 stars (Part 2)](http://techblog.netflix.com/2012/06/netflix-recommendations-beyond-5-stars.html)
 
 ###CF Papers of Interest
+* David Goldberg, David Nichols, Brian M. Oki and Douglas Terry [Using collaborative filtering to weave an information Tapestry](http://www.ischool.utexas.edu/~i385d/readings/Goldberg_UsingCollaborative_92.pdf)
 * [TiVo: Making Show Recommendations Using a Distributed Collaborative Filtering Architecture](http://cs.brynmawr.edu/Courses/cs380/fall2006/TiVo.pdf)
 * GroupLens [Item-Based Collaborative Filtering Recommendation Algorithms](http://www.ra.ethz.ch/CDstore/www10/papers/pdf/p519.pdf)
 * SVD: Arkadiusz Paterek [Improving regularized singular value decomposition for collaborative filtering](http://www.cs.uic.edu/~liub/KDD-cup-2007/proceedings/Regular-Paterek.pdf)
 * Ruslan Salakhutdinov [Restricted Boltzmann Machines for Collaborative Filtering](http://www.machinelearning.org/proceedings/icml2007/papers/407.pdf)
-
+* Robert M. Bell and Yehuda Koren [Improved Neighborhood-based Collaborative Filtering](http://www.cs.uic.edu/~liub/KDD-cup-2007/proceedings/Neighbor-Koren.pdf)
+* Yehuda Koren [Collaborative Filtering with Temporal Dynamics](http://research.yahoo.com/pub/2824)
+* Paul Ginsparg [￼INFO 4300 / CS4300 Information Retrieval](http://www.infosci.cornell.edu/courses/info4300/2011fa/slides/08.pdf) (SVD)
+* Big Chaos [Combining Predictions for Accurate Recommender Systems](http://users.cs.fiu.edu/~lzhen001/activities/KDD_USB_key_2010/docs/p693.pdf)
 
 ###Source Code
 * Ehud Ben-Reuven [Netflix Prize Tools](http://code.google.com/p/nprize/) ""All the tools you need to submit to www.netflixprize.com" [NetflixPrize Forum Post](http://www.netflixprize.com//community/viewtopic.php?id=951)
 * Greg Bildson [RBM Models for the Netflix Prize](http://code.google.com/p/nprizeadditions/)
+* Timely Deployment [Netflix Prize](http://www.timelydevelopment.com/demos/NetflixPrize.aspx)
